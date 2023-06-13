@@ -403,6 +403,9 @@ void MainWindow::beginConnect()
     this->ui->ID1Label->setText(QString("发起人： %1").arg(id));
     this->ui->numberLabel->setText(QString("连接数量： 1"));
     leader = true;
+    disconnect(this->ui->connectButton, &QPushButton::clicked, nullptr, nullptr);
+    ui->connectButton->setText("已加入连接");
+    ui->connectButton->setEnabled(false);
 }
 
 MainWindow::~MainWindow()
