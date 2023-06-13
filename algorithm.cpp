@@ -91,7 +91,7 @@ int64_t PrimitiveElement(int64_t n)
         do
         {
             g = dis(gen);
-        } while (mod_pow(g, 2, n) == 0 || mod_pow(g, p, n) == 1);
+        } while (mod_pow(g, 2, n) == 1 || mod_pow(g, p, n) == 1);
         return g;
     }
 }
