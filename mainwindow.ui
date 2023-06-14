@@ -39,6 +39,11 @@
       <height>32</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <family>MicrosoftYaHei-Tahoma</family>
+     </font>
+    </property>
     <property name="text">
      <string>生成会话</string>
     </property>
@@ -54,7 +59,7 @@
     </property>
     <property name="font">
      <font>
-      <family>STKaiti</family>
+      <family>MicrosoftYaHei-Tahoma</family>
       <pointsize>20</pointsize>
      </font>
     </property>
@@ -73,7 +78,7 @@
     </property>
     <property name="font">
      <font>
-      <family>STKaiti</family>
+      <family>MicrosoftYaHei-Tahoma</family>
       <pointsize>20</pointsize>
      </font>
     </property>
@@ -92,7 +97,7 @@
     </property>
     <property name="font">
      <font>
-      <family>STKaiti</family>
+      <family>MicrosoftYaHei-Tahoma</family>
       <pointsize>20</pointsize>
      </font>
     </property>
@@ -112,6 +117,11 @@
       <height>32</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <family>MicrosoftYaHei-Tahoma</family>
+     </font>
+    </property>
     <property name="text">
      <string>未发现会话</string>
     </property>
@@ -127,7 +137,7 @@
     </property>
     <property name="font">
      <font>
-      <family>STKaiti</family>
+      <family>MicrosoftYaHei-Tahoma</family>
       <pointsize>20</pointsize>
      </font>
     </property>
@@ -146,7 +156,7 @@
     </property>
     <property name="font">
      <font>
-      <family>STKaiti</family>
+      <family>MicrosoftYaHei-Tahoma</family>
       <pointsize>20</pointsize>
      </font>
     </property>
@@ -165,7 +175,7 @@
     </property>
     <property name="font">
      <font>
-      <family>STKaiti</family>
+      <family>MicrosoftYaHei-Tahoma</family>
       <pointsize>20</pointsize>
      </font>
     </property>
@@ -184,7 +194,7 @@
     </property>
     <property name="font">
      <font>
-      <family>STKaiti</family>
+      <family>MicrosoftYaHei-Tahoma</family>
       <pointsize>20</pointsize>
      </font>
     </property>
@@ -203,7 +213,7 @@
     </property>
     <property name="font">
      <font>
-      <family>STKaiti</family>
+      <family>MicrosoftYaHei-Tahoma</family>
       <pointsize>20</pointsize>
      </font>
     </property>
@@ -222,7 +232,7 @@
     </property>
     <property name="font">
      <font>
-      <family>STKaiti</family>
+      <family>MicrosoftYaHei-Tahoma</family>
       <pointsize>20</pointsize>
      </font>
     </property>
@@ -239,6 +249,11 @@
       <height>251</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <family>MicrosoftYaHei-Tahoma</family>
+     </font>
+    </property>
    </widget>
    <widget class="QLineEdit" name="lineEdit">
     <property name="geometry">
@@ -251,7 +266,7 @@
     </property>
     <property name="font">
      <font>
-      <family>STKaiti</family>
+      <family>MicrosoftYaHei-Tahoma</family>
       <pointsize>20</pointsize>
      </font>
     </property>
@@ -270,7 +285,7 @@
     </property>
     <property name="font">
      <font>
-      <family>STKaiti</family>
+      <family>MicrosoftYaHei-Tahoma</family>
       <pointsize>20</pointsize>
      </font>
     </property>

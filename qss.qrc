@@ -1,5 +1,7 @@
 <RCC>
-    <qresource prefix="/"/>
+    <qresource prefix="/font">
+        <file>微软雅黑-Tahoma.ttf</file>
+    </qresource>
     <qresource prefix="/images">
         <file>IMG_8598.JPG</file>
     </qresource>
