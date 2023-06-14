@@ -44,6 +44,12 @@
       <height>32</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <family>.AppleSystemUIFont</family>
+      <pointsize>15</pointsize>
+     </font>
+    </property>
     <property name="text">
      <string>生成会话</string>
     </property>
@@ -116,6 +122,12 @@
       <width>90</width>
       <height>32</height>
      </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>.AppleSystemUIFont</family>
+      <pointsize>15</pointsize>
+     </font>
     </property>
     <property name="text">
      <string>未发现会话</string>
@@ -262,6 +274,9 @@
     </property>
     <property name="text">
      <string>192.168.43.1</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
     </property>
    </widget>
    <widget class="QLabel" name="label">
