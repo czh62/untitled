@@ -281,10 +281,6 @@ void MainWindow::receivedUdp()
                         ui->passwordLabel->setText(QString("协商密钥：%1").arg(password));
                         this->ui->textBrowser->append("收到中间数据：" + temp);
                         this->ui->textBrowser->append(QString("协商密钥完成"));
-
-                        this->ui->textBrowser->setText("");
-                        this->ui->textBrowser->setStyleSheet("border-image: url(:/images/IMG_8598.JPG);");
-
                         break;
 
                     case 2:

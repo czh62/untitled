@@ -28,11 +28,11 @@
    </font>
   </property>
   <property name="windowTitle">
-   <string>嘿嘿嘿张宏</string>
+   <string>信息安全综合实验-基于Diffie-Hellman的三方密钥交换算法</string>
   </property>
   <property name="windowIcon">
    <iconset resource="qss.qrc">
-    <normaloff>:/images/IMG_8598.JPG</normaloff>:/images/IMG_8598.JPG</iconset>
+    <normaloff>:/images/Image.png</normaloff>:/images/Image.png</iconset>
   </property>
   <widget class="QWidget" name="centralwidget">
    <widget class="QPushButton" name="initiateButton">
