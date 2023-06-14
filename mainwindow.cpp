@@ -36,14 +36,14 @@ MainWindow::MainWindow(QWidget *parent)
     int index = 0; // 查找第一个"."字符的位置
     for (int i = 0; i < 3; i++) {
         index = localIp.indexOf(".", index) + 1; // 查找下一个"."字符的位置
-        qDebug() << index;
     }
     if (index != -1) {
         localIp.replace(index, localIp.length() - index, "255"); // 替换第四个"."字符之后的所有字符
     }
     udpSocket = new QUdpSocket(this);
     udpSocket->bind(QHostAddress::Any, 31119);
-    qDebug() << localIp;
+    udpSocket->bind(QHostAddress::Any, 31119);
+    qDebug() << udpSocket->errorString();
 
     // 连接对象操作
     connect(this->ui->lineEdit, &QLineEdit::editingFinished, this, &MainWindow::getLocalIp);
@@ -225,7 +225,6 @@ void MainWindow::receivedUdp()
                             QByteArray datagram = message.toUtf8();
                             udpSocket->writeDatagram(datagram, QHostAddress(localIp), 31119);
                             qDebug() << "send data:" << datagram;
-                            ;
                             endConnect();
                             this->ui->textBrowser->append(QString("检查信号不匹配，重置连接"));
                             break;

@@ -76,6 +76,7 @@ int64_t ProduceRandomPrime()
         // 判断
         if (IsPrime(n) && IsPrime(2 * n + 1))
             return 2 * n + 1;
+        qDebug() << 2 * n + 1 << "false";
     }
 }
 
@@ -91,6 +92,7 @@ int64_t PrimitiveElement(int64_t n)
         do
         {
             g = dis(gen);
+            qDebug() << g << "try";
         } while (mod_pow(g, 2, n) == 1 || mod_pow(g, p, n) == 1);
         return g;
     }
