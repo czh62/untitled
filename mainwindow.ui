@@ -22,6 +22,11 @@
     <height>600</height>
    </size>
   </property>
+  <property name="font">
+   <font>
+    <family>.AppleSystemUIFont</family>
+   </font>
+  </property>
   <property name="windowTitle">
    <string>嘿嘿嘿张宏</string>
   </property>
@@ -33,16 +38,11 @@
    <widget class="QPushButton" name="initiateButton">
     <property name="geometry">
      <rect>
-      <x>80</x>
-      <y>100</y>
+      <x>90</x>
+      <y>115</y>
       <width>100</width>
       <height>32</height>
      </rect>
-    </property>
-    <property name="font">
-     <font>
-      <family>MicrosoftYaHei-Tahoma</family>
-     </font>
     </property>
     <property name="text">
      <string>生成会话</string>
@@ -51,15 +51,15 @@
    <widget class="QLabel" name="privateKeyLabel">
     <property name="geometry">
      <rect>
-      <x>230</x>
-      <y>100</y>
+      <x>260</x>
+      <y>115</y>
       <width>300</width>
       <height>30</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <family>MicrosoftYaHei-Tahoma</family>
+      <family>.AppleSystemUIFont</family>
       <pointsize>20</pointsize>
      </font>
     </property>
@@ -70,15 +70,15 @@
    <widget class="QLabel" name="nNumber">
     <property name="geometry">
      <rect>
-      <x>80</x>
-      <y>150</y>
+      <x>90</x>
+      <y>170</y>
       <width>300</width>
       <height>30</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <family>MicrosoftYaHei-Tahoma</family>
+      <family>.AppleSystemUIFont</family>
       <pointsize>20</pointsize>
      </font>
     </property>
@@ -89,15 +89,15 @@
    <widget class="QLabel" name="pNumber">
     <property name="geometry">
      <rect>
-      <x>80</x>
-      <y>200</y>
+      <x>90</x>
+      <y>220</y>
       <width>300</width>
       <height>30</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <family>MicrosoftYaHei-Tahoma</family>
+      <family>.AppleSystemUIFont</family>
       <pointsize>20</pointsize>
      </font>
     </property>
@@ -111,16 +111,11 @@
     </property>
     <property name="geometry">
      <rect>
-      <x>80</x>
-      <y>300</y>
+      <x>90</x>
+      <y>320</y>
       <width>90</width>
       <height>32</height>
      </rect>
-    </property>
-    <property name="font">
-     <font>
-      <family>MicrosoftYaHei-Tahoma</family>
-     </font>
     </property>
     <property name="text">
      <string>未发现会话</string>
@@ -129,15 +124,15 @@
    <widget class="QLabel" name="passwordLabel">
     <property name="geometry">
      <rect>
-      <x>410</x>
-      <y>160</y>
+      <x>420</x>
+      <y>180</y>
       <width>300</width>
       <height>30</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <family>MicrosoftYaHei-Tahoma</family>
+      <family>.AppleSystemUIFont</family>
       <pointsize>20</pointsize>
      </font>
     </property>
@@ -148,15 +143,15 @@
    <widget class="QLabel" name="ID1Label">
     <property name="geometry">
      <rect>
-      <x>80</x>
-      <y>250</y>
+      <x>90</x>
+      <y>270</y>
       <width>300</width>
       <height>30</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <family>MicrosoftYaHei-Tahoma</family>
+      <family>.AppleSystemUIFont</family>
       <pointsize>20</pointsize>
      </font>
     </property>
@@ -167,15 +162,15 @@
    <widget class="QLabel" name="ID2Label">
     <property name="geometry">
      <rect>
-      <x>80</x>
-      <y>390</y>
+      <x>90</x>
+      <y>410</y>
       <width>300</width>
       <height>30</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <family>MicrosoftYaHei-Tahoma</family>
+      <family>.AppleSystemUIFont</family>
       <pointsize>20</pointsize>
      </font>
     </property>
@@ -186,15 +181,15 @@
    <widget class="QLabel" name="ID3Label">
     <property name="geometry">
      <rect>
-      <x>80</x>
-      <y>440</y>
+      <x>90</x>
+      <y>460</y>
       <width>300</width>
       <height>30</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <family>MicrosoftYaHei-Tahoma</family>
+      <family>.AppleSystemUIFont</family>
       <pointsize>20</pointsize>
      </font>
     </property>
@@ -205,15 +200,15 @@
    <widget class="QLabel" name="numberLabel">
     <property name="geometry">
      <rect>
-      <x>80</x>
-      <y>340</y>
+      <x>90</x>
+      <y>360</y>
       <width>300</width>
       <height>30</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <family>MicrosoftYaHei-Tahoma</family>
+      <family>.AppleSystemUIFont</family>
       <pointsize>20</pointsize>
      </font>
     </property>
@@ -224,15 +219,15 @@
    <widget class="QLabel" name="idLabel">
     <property name="geometry">
      <rect>
-      <x>400</x>
-      <y>30</y>
+      <x>410</x>
+      <y>50</y>
       <width>300</width>
       <height>30</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <family>MicrosoftYaHei-Tahoma</family>
+      <family>.AppleSystemUIFont</family>
       <pointsize>20</pointsize>
      </font>
     </property>
@@ -243,30 +238,25 @@
    <widget class="QTextBrowser" name="textBrowser">
     <property name="geometry">
      <rect>
-      <x>410</x>
-      <y>240</y>
-      <width>301</width>
-      <height>251</height>
+      <x>420</x>
+      <y>260</y>
+      <width>300</width>
+      <height>250</height>
      </rect>
-    </property>
-    <property name="font">
-     <font>
-      <family>MicrosoftYaHei-Tahoma</family>
-     </font>
     </property>
    </widget>
    <widget class="QLineEdit" name="lineEdit">
     <property name="geometry">
      <rect>
-      <x>190</x>
-      <y>30</y>
+      <x>200</x>
+      <y>50</y>
       <width>150</width>
       <height>30</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <family>MicrosoftYaHei-Tahoma</family>
+      <family>.AppleSystemUIFont</family>
       <pointsize>20</pointsize>
      </font>
     </property>
@@ -277,15 +267,15 @@
    <widget class="QLabel" name="label">
     <property name="geometry">
      <rect>
-      <x>80</x>
-      <y>30</y>
+      <x>90</x>
+      <y>50</y>
       <width>100</width>
       <height>30</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <family>MicrosoftYaHei-Tahoma</family>
+      <family>.AppleSystemUIFont</family>
       <pointsize>20</pointsize>
      </font>
     </property>
