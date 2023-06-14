@@ -46,7 +46,7 @@
     </property>
     <property name="font">
      <font>
-      <family>.AppleSystemUIFont</family>
+      <family>STKaiti</family>
       <pointsize>15</pointsize>
      </font>
     </property>
@@ -65,8 +65,8 @@
     </property>
     <property name="font">
      <font>
-      <family>.AppleSystemUIFont</family>
-      <pointsize>20</pointsize>
+      <family>STKaiti</family>
+      <pointsize>22</pointsize>
      </font>
     </property>
     <property name="text">
@@ -84,8 +84,8 @@
     </property>
     <property name="font">
      <font>
-      <family>.AppleSystemUIFont</family>
-      <pointsize>20</pointsize>
+      <family>STKaiti</family>
+      <pointsize>22</pointsize>
      </font>
     </property>
     <property name="text">
@@ -103,8 +103,8 @@
     </property>
     <property name="font">
      <font>
-      <family>.AppleSystemUIFont</family>
-      <pointsize>20</pointsize>
+      <family>STKaiti</family>
+      <pointsize>22</pointsize>
      </font>
     </property>
     <property name="text">
@@ -125,7 +125,7 @@
     </property>
     <property name="font">
      <font>
-      <family>.AppleSystemUIFont</family>
+      <family>STKaiti</family>
       <pointsize>15</pointsize>
      </font>
     </property>
@@ -144,8 +144,8 @@
     </property>
     <property name="font">
      <font>
-      <family>.AppleSystemUIFont</family>
-      <pointsize>20</pointsize>
+      <family>STKaiti</family>
+      <pointsize>22</pointsize>
      </font>
     </property>
     <property name="text">
@@ -163,8 +163,8 @@
     </property>
     <property name="font">
      <font>
-      <family>.AppleSystemUIFont</family>
-      <pointsize>20</pointsize>
+      <family>STKaiti</family>
+      <pointsize>22</pointsize>
      </font>
     </property>
     <property name="text">
@@ -182,8 +182,8 @@
     </property>
     <property name="font">
      <font>
-      <family>.AppleSystemUIFont</family>
-      <pointsize>20</pointsize>
+      <family>STKaiti</family>
+      <pointsize>22</pointsize>
      </font>
     </property>
     <property name="text">
@@ -201,8 +201,8 @@
     </property>
     <property name="font">
      <font>
-      <family>.AppleSystemUIFont</family>
-      <pointsize>20</pointsize>
+      <family>STKaiti</family>
+      <pointsize>22</pointsize>
      </font>
     </property>
     <property name="text">
@@ -220,8 +220,8 @@
     </property>
     <property name="font">
      <font>
-      <family>.AppleSystemUIFont</family>
-      <pointsize>20</pointsize>
+      <family>STKaiti</family>
+      <pointsize>22</pointsize>
      </font>
     </property>
     <property name="text">
@@ -239,8 +239,8 @@
     </property>
     <property name="font">
      <font>
-      <family>.AppleSystemUIFont</family>
-      <pointsize>20</pointsize>
+      <family>STKaiti</family>
+      <pointsize>22</pointsize>
      </font>
     </property>
     <property name="text">
@@ -256,6 +256,12 @@
       <height>250</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <family>STKaiti</family>
+      <pointsize>15</pointsize>
+     </font>
+    </property>
    </widget>
    <widget class="QLineEdit" name="lineEdit">
     <property name="geometry">
@@ -268,8 +274,8 @@
     </property>
     <property name="font">
      <font>
-      <family>.AppleSystemUIFont</family>
-      <pointsize>20</pointsize>
+      <family>STKaiti</family>
+      <pointsize>22</pointsize>
      </font>
     </property>
     <property name="text">
@@ -290,8 +296,8 @@
     </property>
     <property name="font">
      <font>
-      <family>.AppleSystemUIFont</family>
-      <pointsize>20</pointsize>
+      <family>STKaiti</family>
+      <pointsize>22</pointsize>
      </font>
     </property>
     <property name="text">

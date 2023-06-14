@@ -99,12 +99,14 @@ void MainWindow::receivedUdp()
                 else
                 {
                     leader = false;
+                    this->ui->textBrowser->append(QString("收到大素数和原根"));
+
                     disconnect(this->ui->connectButton, &QPushButton::clicked, nullptr, nullptr);
                     connect(this->ui->connectButton, &QPushButton::clicked, this, &MainWindow::startConnect);
                     ui->connectButton->setText("加入连接");
                     ui->connectButton->setEnabled(true);
                 }
-                this->ui->textBrowser->append(QString("收到大素数和原根"));
+
                 ui->ID1Label->setText(QString("发起人： %1").arg(connectId[0]));
             }
             else if (temp.startsWith("end"))
@@ -168,7 +170,6 @@ void MainWindow::receivedUdp()
                             QByteArray datagram = message.toUtf8();
                             udpSocket->writeDatagram(datagram, QHostAddress(localIp), 31119);
                             qDebug() << "send data:" << datagram;
-                            ;
                         }
                     }
                     else
@@ -178,7 +179,6 @@ void MainWindow::receivedUdp()
                         QByteArray datagram = message.toUtf8();
                         udpSocket->writeDatagram(datagram, QHostAddress(localIp), 31119);
                         qDebug() << "send data:" << datagram;
-                        ;
                         endConnect();
                     }
                 }
